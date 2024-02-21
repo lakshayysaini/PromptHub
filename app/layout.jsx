@@ -6,6 +6,7 @@ export const metaData = {
     title: 'PromptHub',
     description: 'Discover & Share AI-Powered Prompts'
 }
+export const dynamic = 'force-dynamic'
 
 const RootLayout = ( { children } ) => {
     return (

@@ -17,7 +17,7 @@ const UpdatePrompt = () => {
 
     useEffect( () => {
         const getPromptDetails = async () => {
-            const response = await fetch( `/api/prompt/${ promptId }` );
+            const response = await fetch( `/api/prompt/${ promptId }`,  { cache: 'no-store' } );
             const data = await response.json();
 
             setPost( {
@@ -37,6 +37,9 @@ const UpdatePrompt = () => {
 
         try {
             const response = await fetch( `/api/prompt/${ promptId }`, {
+                headers: {
+                    cache: 'no-store'
+                },
                 method: "PATCH",
                 body: JSON.stringify( {
                     prompt: post.prompt,
