@@ -1,4 +1,4 @@
-# Welcome to PromptHub, a Next.js Application. (If you want to sign in you can email me @lakshayysaini@gmail.com your mail account so I can give you access in test users in google console)
+## Welcome to PromptHub, a Next.js Application. (If you want to sign in you can email me @lakshayysaini@gmail.com your mail account so I can give you access in test users in google console)
 
 ## Overview
 
