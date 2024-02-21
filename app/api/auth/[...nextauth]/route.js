@@ -3,6 +3,8 @@ import GoogleProvider from 'next-auth/providers/google';
 import User from '@models/user';
 import { connectToDB } from '@utils/database';
 
+export const dynamic = 'force-dynamic';
+
 const handler = NextAuth({
     providers: [
         GoogleProvider({
