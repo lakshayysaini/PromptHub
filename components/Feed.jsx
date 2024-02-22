@@ -68,8 +68,6 @@ const Feed = () => {
         setSearchedResults( searchResult );
     };
 
-    console.log( 'allPosts', allPosts )
-
     return (
         <section className="feed">
             <form className="relative w-full flex-center flex-col">
