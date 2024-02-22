@@ -1,8 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 
-
-
 const Form = ( { type, setPost, submitting, handleSubmit, post } ) => {
 
   return (
